@@ -16,11 +16,11 @@
 }
 
 .card-btn{
-    @apply btn text-sm;
+    @apply btn w-full;
 }
 
 .btn{
-    @apply border-gray-2 border-2 py-2 px-6 mt-4 rounded-md text-blue-2 font-bold;
+    @apply border-gray-2 border-2 py-4 px-6 mt-4 rounded-md text-blue-2 font-bold;
 }
 
 .title{
