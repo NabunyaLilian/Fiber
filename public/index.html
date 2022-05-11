@@ -4,13 +4,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Fiber</title>
 </head>
 <body class="bg-light-gray text-dull-black">
     <div>
         <header class="px-4 md:px-14 md:pt-4 pb-20">
+
+            <!-- nav bar -->
             <div class="flex justify-between items-center mt-4 "> 
-                <h2 class="md:text-xl text-2xl font-bold text-black-2">Fiber</h2>
+                <h2 class="md:text-xl text-2xl title">Fiber</h2>
                 <div class="hidden md:block">
                     <nav>
                         <ul class="flex justify-between">
@@ -21,19 +24,23 @@
                     </nav>
                 </div>
                 <div class="hidden md:block">
-                    <span class="font-bold text-black-2"><a>Sign In</a></span>
+                    <span class="title"><a>Sign In</a></span>
                     <button class="bg-blue-2 text-white font-bold py-2 px-4 mx-4 rounded">Sign Up</button>
                 </div>
                 <img class="md:hidden" src="../images/hamburger-menu.svg">
-            </div>
+            </div><!-- end of navbar -->
+            
 
+            <!--headline-->
             <div class="flex flex-col md:flex-row-reverse md:mt-11">
-
+                <!-- headline image -->
                 <div class="md:w-1/2">
                     <img src="../images/hero-Illustration.png">
                 </div>
 
+                <!-- headline punchlines -->
                 <div class="md:w-1/2 md:mt-16 mt-4 lg:mt-32">
+                    <!-- rating -->
                     <p class="hidden md:flex md:items-center">
                         <img  src="../images/star.svg">
                         <img  src="../images/star.svg"> 
@@ -42,7 +49,7 @@
                         <img  src="../images/star.svg">
                         <span class="ml-2">Rated 4.8/5 (243 reviews)</span>
                     </p>
-                    <h1 class="text-4xl mt-4 font-bold lg:text-6xl text-black-2">Create your portfolio in minutes.</h1>
+                    <h1 class="text-4xl mt-4 lg:text-6xl title">Create your portfolio in minutes.</h1>
                     <p class="mt-2 text-dull-black">With Fiber, you can setup your own personal portfolio in minutes with dozens of premade, beautiful templates.</p>
                     <div class="md:flex md:w-full md:items-center">
                        <button class="bg-blue-2 text-white font-bold py-4 rounded mt-5 w-full md:w-1/2 lg:w-1/3">Start Free Trial</button>
@@ -60,32 +67,33 @@
                         </li>
                     </ul>
                 </div>
-               
-             </div>
-            
-        </header>    
+            </div> <!-- end of headline -->
+        </header><!--end of header  -->
 
-        <main class="bg-white px-14 py-10 ">
+
+        <main class="bg-white px-14 py-10 "> <!--Main content-->
             <div>
+                <!-- portfolio -->
+
                <h4 class="mt-8 text-blue-2 leading-7" >Why Fiber?</h4>
                <h1 class="text-3xl max-w-sm mt-2 text-black-2">A good portfolio means good employability.</h1>
             
                <div class="md:grid md:grid-cols-3 mt-11 md:gap-2">
                    <div>
                        <img class="w-8" src="../images/time.svg">
-                       <p class="mt-4 text-sm font-bold text-black-2">Build in minutes</p>
+                       <p class="badge-title">Build in minutes</p>
                        <p class="mt-4">With a selection of premade templates, you can build out a portfolio in less than 10 minutes</p>    
                    </div>
             
                    <div>
                        <img class="w-8" src="../images/code.svg">
-                       <p class="mt-4 text-sm font-bold text-black-2"> Add custom CSS </p>
+                       <p class="badge-title"> Add custom CSS </p>
                        <p class="mt-4">Customize your personal portfolio even more with the ability to add your own custom CSS styles.</p>    
                    </div>
             
                    <div>
                        <img class="w-8" src="../images/all-sizes.svg">
-                       <p class="mt-4 text-sm font-bold text-black-2">Responsive</p>
+                       <p class="badge-title">Responsive</p>
                        <p class="mt-4">All Fiber templates are fully Responsive to ensure the experience is seemless across alld devices.</p>    
                    </div>
             
@@ -93,20 +101,21 @@
                
                <div class="mt-11 flex flex-col md:flex-row px-8 bg-blue-2 pt-8 rounded-md h-auto">
                    <div class="md:w-1/2 mr-4 mb-11">
-                    <h1 class="text-3xl text-white font-bold">Diversity your portfolio.</h1>
-                    <p class="text-light-purple mt-2">Create an even more impressive portfolio by creating case studies for your projects. Simply follow our step-by-step guide.</p>
-                    <button class="bg-white px-4 py-2 my-4 text-blue-2 rounded-md w-full md:w-1/2">Start Free Trial</button>
+                        <h1 class="text-3xl text-white font-bold">Diversity your portfolio.</h1>
+                        <p class="text-light-purple mt-2">Create an even more impressive portfolio by creating case studies for your projects. Simply follow our step-by-step guide.</p>
+                        <button class="bg-white px-4 py-2 my-4 text-blue-2 rounded-md w-full md:w-1/2">Start Free Trial</button>
                    </div>
                    <img class="md:w-1/2" src="../images/page-image.png">
-               </div>
+               </div>  <!--end of portfolio-->
 
                <!-- cards -->
                <div class="mt-11 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6">
+                   <!--card 1-->
                     <div class="card">
                         <div class="flex items-center">
-                            <img class="inline mr-2 md:mr-4 md:w-14 w-10" src="../images/user-avatar.svg">
+                            <img class="card-img" src="../images/user-avatar.svg">
                             <h4>
-                                <span class="text-blue-2 font-bold text-xs">Sarah Andrews</span><br>
+                                <span class="user-name">Sarah Andrews</span><br>
                                 <span class="text-xs">$100k in revenue</span>
                             </h4>
                         </div>
@@ -114,14 +123,15 @@
                             Setting up my portfolio with Fiber took no more than 10 minutes. Since then, my portfolio has attracted alot of clients and made me morethan $100k.
                         </p>
                 
-                        <button class="btn text-sm"> View Sarah's portfolio</button>
+                        <button class="card-btn"> View Sarah's portfolio</button>
                     </div>
                 
+                    <!--card 2-->
                     <div class="card">
                         <div class="flex items-center">
-                            <img class="inline mr-2 md:mr-4 md:w-14 w-10" src="../images/user-avatar-2.svg">
+                            <img class="card-img" src="../images/user-avatar-2.svg">
                             <h4>
-                                <span class="text-blue-2 font-bold text-xs">Mathew Higgins</span><br>
+                                <span class="user-name">Mathew Higgins</span><br>
                                 <span class="text-xs">$20k in revenue</span>
                             </h4>
                         </div>
@@ -129,14 +139,15 @@
                             I have been getting A LOT of leads ever since I used Fiber's premade templates, now I just need to work on my case studies and I'll be ready to go!
                         </p>
                 
-                        <button class="btn text-sm"> View Mathew's portfolio</button>
+                        <button class="card-btn"> View Mathew's portfolio</button>
                     </div>
-                
+                        
+                    <!-- card 3 -->
                     <div class="card">
                         <div class="flex items-center">
-                            <img class="inline mr-2 md:mr-4 md:w-14 w-10" src="../images/user-avatar-32.svg">
+                            <img class="card-img" src="../images/user-avatar-32.svg">
                             <h4>
-                                <span class="text-blue-2 font-bold text-xs">Janice Dave</span><br>
+                                <span class="user-name">Janice Dave</span><br>
                                 <span class="text-xs">$30k in revenue</span>
                             </h4>
                         </div>
@@ -144,80 +155,59 @@
                             I only started freelancing this year and I have already made more than I ever made in my full-time job. The templates are just so amazing.
                         </p>
                 
-                        <button class="btn text-sm m-auto"> View Janice's portfolio</button>
-                    </div>
-               </div>
-               
-            </div>
-            </main>
-            <footer>
-            <h3>Fiber</h3>
-            <p>With Fiber, you can setup your own personal portfolio in minutes with dozens of premade, beautiful templates. </p>
-            <p>Made with in Netherlands.</p>
-            
-            <div>
-               <h3>Sitemap</h3>
-               <ul>
-                   <li>
-                       <a>Homepage</a>
-                   </li>
-                   <li>
-                       <a>Pricing</a>
-                   </li>
-                   <li>
-                       <a>Testimonials</a>
-                   </li>
-                   <li>
-                       <a>Features</a>
-                   </li>
-               </ul>
+                        <button class="card-btn"> View Janice's portfolio</button>
+                    </div>       
+                </div><!--end of cards-->  
+            </div>    
+        </main> <!--end of main content-->
+
+
+        <!-- footer -->
+        <footer class="grid grid-cols-1 gap-8 md:grid-cols-6 px-14 py-11 md:gap-4">
+
+            <div class="md:col-span-2">
+                <h3 class="title">Fiber</h3>
+                <p class="mt-2">With Fiber, you can setup your own personal portfolio in minutes with dozens of premade, beautiful templates. </p>
+                <p class="mt-8">Made with <i class="fa fa-heart"></i> in Netherlands.</p>
             </div>
             
             <div>
-               <h3>Resources</h3>
-               <ul>
-                   <li>
-                       <a>Support</a>
-                   </li>
-                   <li>
-                       <a>Contact</a>
-                   </li>
-                   <li>
-                       <a>FAQ</a>
-                   </li>
-               </ul>
+                <h3 class="title">Sitemap</h3>
+                <ul class="footer-list">
+                    <li><a>Homepage</a></li>
+                    <li><a>Pricing</a></li>
+                    <li><a>Testimonials</a></li>
+                    <li><a>Features</a></li>
+                </ul>
             </div>
             
             <div>
-               <h3>Company</h3>
-               <ul>
-                   <li>
-                       <a>About</a>
-                   </li>
-                   <li>
-                       <a>Customers</a>
-                   </li>
-                   <li>
-                       <a>Blog</a>
-                   </li>
-               </ul>
+                <h3 class="title">Resources</h3>
+                <ul class="footer-list">
+                    <li><a>Support</a></li>
+                    <li><a>Contact</a></li>
+                    <li><a>FAQ</a></li>
+                </ul>
             </div>
             
             <div>
-               <h3>Portfolios</h3>
-               <ul>
-                   <li>
-                       <a>Sarah Andrews</a>
-                   </li>
-                   <li>
-                       <a>Mathew Higgins</a>
-                   </li>
-                   <li>
-                       <a>Janice Dave</a>
-                   </li>
-               </ul>
+                <h3 class="title">Company</h3>
+                <ul class="footer-list">
+                    <li><a>About</a></li>
+                    <li><a>Customers</a></li>
+                    <li><a>Blog</a></li>
+                </ul>
             </div>
-            </footer>
+            
+            <div>
+                <h3 class="title">Portfolios</h3>
+                <ul class="footer-list">
+                    <li><a>Sarah Andrews</a></li>
+                    <li><a>Mathew Higgins</a></li>
+                    <li><a>Janice Dave</a></li>
+                </ul>
+            </div>
+        </footer><!-- end of foooter -->
     </div>
 </body>
 </html>

@@ -7,6 +7,30 @@
     @apply border-gray-2 border-2 p-4 rounded-md;
 }
 
+.card-img{
+    @apply inline mr-2 md:mr-4 md:w-14 w-10;
+}
+
+.user-name{
+    @apply text-blue-2 font-bold text-xs;
+}
+
+.card-btn{
+    @apply btn text-sm;
+}
+
 .btn{
     @apply border-gray-2 border-2 py-2 px-6 mt-4 rounded-md text-blue-2 font-bold;
+}
+
+.title{
+    @apply font-bold text-black-2;
+}
+
+.badge-title{
+    @apply mt-4 text-sm font-bold text-black-2;
+}
+
+.footer-list{
+    @apply leading-relaxed mt-2;
 }
